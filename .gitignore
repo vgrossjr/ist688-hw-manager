@@ -1,0 +1,28 @@
+# Streamlit secrets (never commit API keys)
+.streamlit/secrets.toml
+
+# Virtual environment created by uv
+.venv/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+
+# Environment files
+.env
+.env.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

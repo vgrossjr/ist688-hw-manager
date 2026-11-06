@@ -1,0 +1,10 @@
+# Streamlit Community Cloud reads this file when deploying (Gate 8).
+# Keep it in sync with pyproject.toml — ask Claude to update both together.
+streamlit>=1.40
+openai
+pymupdf>=1.28,<2
+requests>=2.34.2
+beautifulsoup4>=4.15.0
+anthropic>=2.6.0
+google-genai>=3.0.0
+
